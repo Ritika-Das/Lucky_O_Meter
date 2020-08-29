@@ -9,32 +9,33 @@
 
   <?php
 
-    $str = 'Welcome to your random star analysis. This page will generate a new analysis everytime you refresh, so don't get carried away by the results!';
-
-    // Print the length of $str using strlen
-    echo strlen($str);
-    
+    $str = 'Welcome to your random star analysis.'.'<br>'.' This page will generate a new analysis everytime you refresh, so do not get carried away by the results!';
+    // Print Welcome Note :)
+    echo $str;
     echo '<br>';
-    // generates a random number between 1 to 10 
-    $var = rand(1,10);
+    echo '<br>';
+    // generates a random number between 1 to 5
+    $var = rand(1,5);
     for($i=1;$i<=$var;$i++){
     echo '⭐'.'   ';
-}
+  }
+  echo '<br>';
+  echo '<br>';
 switch ($var){
-case 1,2:
-  echo 'It's not the last straw! You just need to work harder today, so go for it.'; 
+case 1:
+  echo 'It is not the last straw! You just need to work harder today, so go for it.'; 
   break;
-case 3,4:
-  echo 'You are aided by the stars, so don't stop what you're doing!'; 
+case 2:
+  echo 'You are aided by the stars, so do not stop what you are doing!'; 
   break;
-case 5,6:
+case 3:
   echo 'You are really persevering today! Maybe just a little more of your own efforts to set it right?'; 
   break;
-case 7,8:
+case 4:
   echo 'Oh boy, the stars have really shined upon you today! You are in luck.'; 
   break;
-case 9,10:
-  echo 'Your day couldn't be better! If you tend to part ways on this argument, just know that it all turns out well for the good.'; 
+case 5:
+  echo 'Your day could not be better! If you tend to part ways on this argument, just know that it all turns out well for the good.'; 
   break;
 default:
   echo 'Stars what?';
