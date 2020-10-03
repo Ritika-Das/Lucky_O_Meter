@@ -7,7 +7,7 @@
 </head>
 <body>
   <?php
-    $str = 'Welcome to your random star analysis.'.'<br>'.' This page will generate a new analysis everytime you refresh, so do not get carried away by the results!';
+    $str = 'AAAWelcome to your random star analysis.'.'<br>'.' This page will generate a new analysis everytime you refresh, so do not get carried away by the results!';
     // Print Welcome Note :)
     echo $str;
     echo '<br>';
